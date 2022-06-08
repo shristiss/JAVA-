@@ -31,6 +31,7 @@ public class q19b {
     Mythread mt2=new Mythread(ci,"Sethiya");
     mt1.start();
     mt2.start();
+    synchronized(college.class);
    }
     
 }

@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-
+import java.io.File;
 public class q22
 {
    public static void main(String args[])
@@ -52,7 +52,7 @@ class Abc extends JFrame implements ActionListener
   {
     int num1=Integer.parseInt(t1.getText());
     int num2=Integer.parseInt(t2.getText());
-  
+     
     int value=num1+num2;
     l3.setText(""+value);
   }
